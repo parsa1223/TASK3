@@ -1,9 +1,6 @@
-let drinks = [
-    {name: "lemonade", price: 50},
-    {name: "lime", price: 10}
-  ];
+
   
-function firstStep(){
+function drinks(exex){
     drinks.sort((x1,x2) =>{
         if(x1.price>x2.price){
             return 1
@@ -13,5 +10,5 @@ function firstStep(){
             return 0;
         }
     })
-    console.log(drinks)
+    console.log(exex)
 };
